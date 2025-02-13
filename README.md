@@ -14,10 +14,9 @@ This project focuses on enhancing the safety and robustness of Large Language Mo
   - `deepspeed_zero3.yaml`: Configuration file for DeepSpeed Zero-3, facilitating efficient distributed training.
   - `run_sft.py`: Main script to execute the supervised fine-tuning process.
 
-- **Notebooks/**
-  - `Five_response_sft_model.ipynb`: Generates five diverse responses for 10K randomly sampled prompts from the HH-RLHF dataset.
-  - `Ranker_Llama70B.ipynb`: Uses Llama 3.1 70B to rank the five responses from 1-5 based on safety and helpfulness.
-  - `Preprocs.ipynb`: Extracts ranks per prompt from the model responses and appends them to the prompt, creating the final dataset.
+- `Five_response_sft_model.ipynb`: Generates five diverse responses for 10K randomly sampled prompts from the HH-RLHF dataset.
+- `Ranker_Llama70B.ipynb`: Uses Llama 3.1 70B to rank the five responses from 1-5 based on safety and helpfulness.
+- `Preprocs.ipynb`: Extracts ranks per prompt from the model responses and appends them to the prompt, creating the final dataset.
 
 ## Supervised Fine-Tuning (SFT) Details
 The fine-tuning process was conducted using the Alignment Handbook's methodologies, with the following configurations:
